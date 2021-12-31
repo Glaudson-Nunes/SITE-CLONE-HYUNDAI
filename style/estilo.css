@@ -1,0 +1,152 @@
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background-color:rgba(204, 204, 204, 0.116);
+    font-family: 'Oswald', sans-serif;
+}
+
+ul,a{
+
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+
+  
+    width: 85%;
+}
+
+
+#container-header{
+    border: 1px solid rgba(204, 204, 204, 0.212);
+    padding: 20px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.logo{
+
+    float: left;
+}
+
+.menu li{
+
+    display: inline-block;   
+    margin-right: 50px;
+}
+
+.menu{
+
+    text-align: center;
+
+}
+
+.menu a{
+
+    color: black;
+}
+
+.lista-menu li{
+
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.lista-menu{
+
+    position: absolute;
+    right:0;
+    margin-top:-20px;
+  
+   
+
+}
+
+#midia-social img{
+
+    width: 23px;
+}
+
+
+.foto-carro img{
+
+   
+    width: 100%;
+    margin-top:60px;
+}
+
+#container-inpu{
+
+    
+    margin: 0 auto;
+    width: 80%;
+}
+
+.input{
+
+    margin-top: 40px;
+}
+
+.input li{
+
+    display: inline-block;
+}
+
+.pesqui{
+
+    width: 510px;
+    outline: none;
+    border: 1px solid rgba(204, 204, 204, 0.418);
+    padding: 15px;
+}
+
+.buscar{
+
+    width:150px;
+    padding: 13px;
+    outline: none;
+    background-color: rgba(5, 5, 100, 0.767);
+    color: white;
+    font-size: 1em;
+    border:none;
+    cursor:pointer;
+}
+
+
+
+.container-rodape{
+
+    background-color: #000;
+    margin-top: 80px;
+    width: 100%;
+    height: 90px;
+
+}
+
+.conteudo{
+
+    padding: 30px;
+    margin: 0 auto;
+    width: 70%;
+  
+}
+
+.conteudo li{
+
+    display: inline-block;
+    margin-right: 65px;
+}
+
+.conteudo a{
+
+    color: #ccc;
+    font-weight: normal;
+    font-size: 0.8em;
+}
